@@ -11,5 +11,6 @@ namespace LeerData
         public string? Descripcion {get; set;}
         public DateTime FechaPublicacion {get; set;}  
         public Precio Precio {get; set;}  
+        public ICollection<Comentario> Comentarios {get; set;}
     }
 }
